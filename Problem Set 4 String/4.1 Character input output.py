@@ -1,3 +1,3 @@
-char = input()
+char = input("Input a character")
 ascii = ord(char)
-print(ascii)
+print("ascii of {} is {}".format(char,ascii))
